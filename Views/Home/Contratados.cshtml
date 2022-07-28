@@ -11,18 +11,17 @@
 <body>
 
     <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-5 divContratados">
-                <form class="form-inline" style="margin-top: 15px;">
-                    <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Usuário" aria-label="Usuário" aria-describedby="basic-addon1">
-                        <div class="input-group-prepend" style="margin-left: 3px;">
-                             <button class="btn btn-outline-success" type="button">Pesquisar</button>
-                        </div>
-                    </div>
-                </form>
+        <button class="btn btn-outline-success" onclick="location.href='@Url.Action("AdicionarContratado", "Adicionar")'" type="button">Adicionar contratado</button>
+        <form class="form-inline" style="margin-top: 15px;">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Usuário" aria-label="Usuário" aria-describedby="basic-addon1">
+                <div class="input-group-prepend" style="margin-left: 3px;">
+                    <button class="btn btn-outline-success" type="button">Pesquisar</button>
+                </div>
             </div>
-         </div>
+        </form>
+
+
     </div>
 
 

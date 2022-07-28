@@ -1,8 +1,8 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using EstacionamentoBenner.Models;
+using SIRP.Models;
 
-namespace EstacionamentoBenner.Controllers;
+namespace SIRP.Controllers;
 
 public class HomeController : Controller
 {
