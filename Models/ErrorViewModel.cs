@@ -1,4 +1,4 @@
-namespace EstacionamentoBenner.Models;
+namespace SIRP.Models;
 
 public class ErrorViewModel
 {

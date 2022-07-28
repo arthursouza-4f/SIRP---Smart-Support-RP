@@ -1,7 +1,7 @@
 using Asm.Models.BaseDB;
 using Microsoft.EntityFrameworkCore;
 
-namespace EstacionamentoBenner.Context
+namespace SIRP.Context
 {
     public class WebAppDbContext : DbContext
     {
